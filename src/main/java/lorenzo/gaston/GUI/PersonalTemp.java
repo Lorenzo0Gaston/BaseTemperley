@@ -507,22 +507,6 @@ public class PersonalTemp extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_btnEliminarActionPerformed
 
-    private void jTextField9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField9ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField9ActionPerformed
-
-    private void jTextField11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField11ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField11ActionPerformed
-
-    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton5ActionPerformed
-
-    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton6ActionPerformed
-
     private void btLimpiarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btLimpiarActionPerformed
         
     }//GEN-LAST:event_btLimpiarActionPerformed
@@ -530,17 +514,7 @@ public class PersonalTemp extends javax.swing.JFrame {
     
     private void btnBuscarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBuscarActionPerformed
         
-        List<Personal> listaPerso = control.traerPesona();
         
-        String legajoB = txtLegBuscar.getText();
-        int numLeg = Integer.parseInt(legajoB);
-        if (numLeg.isEmpty()) {
-            JOptionPane.showMessageDialog(this, "El legajo no puede estar vacío", "Error", JOptionPane.ERROR_MESSAGE);
-            return;
-                          
-        } else (){
-            
-        }
         
     }//GEN-LAST:event_btnBuscarActionPerformed
 
@@ -599,12 +573,7 @@ public class PersonalTemp extends javax.swing.JFrame {
     private javax.swing.JTextField txtNumOrd;
     // End of variables declaration//GEN-END:variables
 
-    private void buscarDatos() {
-        String legajo = legajoField.getText();
-        if (legajo.isEmpty()) {
-            JOptionPane.showMessageDialog(this, "El legajo no puede estar vacío", "Error", JOptionPane.ERROR_MESSAGE);
-            return;
-        }
+    
 
 }
 
